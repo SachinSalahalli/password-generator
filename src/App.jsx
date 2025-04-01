@@ -46,8 +46,9 @@ function App() {
 
   return (
     <>
-      <ReactNotifications />
+     
       <div className="passwordBox">
+         <ReactNotifications />
         <h2>Password Generator</h2>
         <div className="passwordBoxin">
           <input type="text" readOnly value={fpass} />
