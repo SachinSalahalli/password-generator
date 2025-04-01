@@ -25,6 +25,7 @@ function App() {
       setPass(finalPass);
     } else {
       Store.addNotification({
+        id: String(new Date().getTime()),  // Ensure uniqueness
         title: "Warning",
         message: "Please check at least one box!",
         type: "warning",
